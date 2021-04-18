@@ -41,14 +41,15 @@ def update():
 	conn.commit()
 if __name__=='__main__':
 	create_table()
-	fetch_data()
+	# display()
 	while True:
 		print("1.add item\n2.delete item\n3.display item\n4.update")
 		no=input()
 		try:
 			no=int(no)
 		except:
-			add_item_arg(no)
+			add_item(no)
+			pass
 		if no==1:
 			add_item()
 		elif no==2:
