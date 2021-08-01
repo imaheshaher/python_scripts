@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 this is git conflict file updated second time
-=======
-this is git conflict file is edited
->>>>>>> dev
