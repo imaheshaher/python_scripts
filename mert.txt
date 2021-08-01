@@ -1,1 +1,1 @@
-this is git conflict file is edited
+this is git conflict file is edited this file
