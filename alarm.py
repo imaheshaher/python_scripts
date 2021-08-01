@@ -6,7 +6,7 @@ import os
 alarm_time = "19:22:35"
 alarm_hour = alarm_time[0:2]
 alarm_minutes = alarm_time[3:5]
-alarm_second = alarm_time[6:8]
+alarm_seconds = alarm_time[6:8]
 alarm_period = alarm_time[9:11].upper()
 print(alarm_hour,alarm_minutes,alarm_second,alarm_period)
 # print(os.getcwd()+ str("\song.mp3"))
@@ -20,7 +20,7 @@ while True:
     print(current_period)
     if current_hour==alarm_hour:
         if current_minute==alarm_minutes:
-            if current_second==alarm_second:
+            if current_second==alarm_seconds:
                 print("Wakd up..")
 
                 playsound(os.getcwd()+ str("\song.mp3"))
