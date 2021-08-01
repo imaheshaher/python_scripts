@@ -1,3 +1,5 @@
+
+''' Alarm using python'''
 from playsound import playsound
 from datetime import datetime
 import os
@@ -8,6 +10,7 @@ alarm_second = alarm_time[6:8]
 alarm_period = alarm_time[9:11].upper()
 print(alarm_hour,alarm_minute,alarm_second,alarm_period)
 # print(os.getcwd()+ str("\song.mp3"))
+
 while True:
     now=datetime.now()
     current_hour = now.strftime("%H")
