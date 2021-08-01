@@ -8,7 +8,7 @@ alarm_hour = alarm_time[0:2]
 alarm_minutes = alarm_time[3:5]
 alarm_seconds = alarm_time[6:8]
 alarm_period = alarm_time[9:11].upper()
-print(alarm_hour,alarm_minutes,alarm_second,alarm_period)
+print(alarm_hour,alarm_minutes,alarm_seconds,alarm_period)
 # print(os.getcwd()+ str("\song.mp3"))
 '''while loop to continueously check is time match'''
 while True:
