@@ -1,7 +1,3 @@
-# python_scripts
-Perfect 👍 Here’s a **clean and simple README** you can just copy-paste into your repo.
-
----
 
 # Python Scripts
 
